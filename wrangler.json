@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2024-11-01",
+  "main": "src/index.ts",
+  "name": "floral-poetry-25ef",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "f189c7e3-06af-4d90-bbff-ea98f9e5b84c",
+      "database_name": "autumn-bar-33d9-d1"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
