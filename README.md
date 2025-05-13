@@ -36,6 +36,11 @@ npm create cloudflare@latest -- --template=cloudflare/templates/floral-poetry-25
 
 A live public deployment of this template is available at [https://floral-poetry-25ef.templates.workers.dev](https://floral-poetry-25ef.templates.workers.dev)
 
+## StackBlitz Limitation
+
+> [!NOTE]
+> The `wrangler dev` command is currently not supported in StackBlitz WebContainer environments. You can still deploy the project using `npx wrangler deploy` or develop locally on your machine.
+
 ## Setup Steps
 
 1. Install the project dependencies with a package manager of your choice:

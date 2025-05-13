@@ -25,7 +25,6 @@
   "scripts": {
     "check": "tsc && wrangler --experimental-json-config deploy --dry-run",
     "deploy": "wrangler --experimental-json-config deploy",
-    "dev": "wrangler --experimental-json-config dev",
     "predeploy": "wrangler --experimental-json-config d1 migrations apply autumn-bar-33d9-d1 --remote",
     "seedLocalD1": "wrangler --experimental-json-config d1 migrations apply autumn-bar-33d9-d1 --local",
     "types": "wrangler --experimental-json-config types"
